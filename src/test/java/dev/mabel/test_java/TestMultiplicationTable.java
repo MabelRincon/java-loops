@@ -2,10 +2,13 @@ package dev.mabel.test_java;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+
 import java.util.List;
 import java.util.Arrays;
 
-public class testMultiplicationTable {
+import dev.mabel.template_java.MultiplicationTable;
+
+public class TestMultiplicationTable {
 
     @Test
     void testMultiplicationTable_positiveNumber() {
