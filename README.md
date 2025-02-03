@@ -1,4 +1,4 @@
-# Project Title
+# Multiplication Table Generator
 
 ## Table of Contents
 
@@ -8,19 +8,17 @@
   - Prerequisites
   - Installation
 - Tests
-- Build
-- Usage
 - Feedback and Contributions
 - Contact
 
 ## Description
 
-A more detailed explanation of what your project does.  What problem does it solve? What are its key features?  Be specific and avoid jargon if possible.  Include a sentence or two summarizing the project for quick understanding.
+A simple Java program that generates the multiplication table for a given integer using Test-Driven Development (TDD).
 
 ## Features
 
-- A list with all the features from your project.
-- **Feature Name**: What this feature do.
+- Generates a multiplication table from 1 to 10 for a given number.
+- Uses JUnit for testing with minimum **70% coverage**.
 
 ## Getting Started
 
@@ -35,11 +33,11 @@ A more detailed explanation of what your project does.  What problem does it sol
 
 1. Clone the repository:
 ```Bash
-git clone [https://github.com/your-username/your-repo.git](https://github.com/your-username/your-repo.git)
+git clone [https://github.com/MabelRincon/java-loops](https://github.com/MabelRincon/java-loops)
 ```
 2. Change to your project directory:
 ```bash
-cd your-repo
+cd java-loops
 ```
 4. Run a clean Maven installation:
 ```Bash
@@ -48,37 +46,21 @@ mvn clean install
 
 ## Tests
 
-Describe how to run the project's tests.  Specify the testing framework used (e.g., JUnit, TestNG) and provide commands for running the tests.
+Current test coverage of a 72.22%
+
+Tests cover 3 important scenarios: the basic functionality and 2 edge cases.
+
+Positive input: Verifies the basic functionality of the method.
+Zero input: Checks a boundary condition (often a source of errors).
+Negative input: Verifies how the method handles invalid input (in this case, by throwing an exception).
+
 
 **Example (using Maven and JUnit):**
 
 ```Bash
 mvn test
 ```
-## Build
 
-Explain how to build the project.  Specify the build tool used (e.g., Maven, Gradle) and provide the necessary commands.
-
-**Example (using Maven):**
-
-```Bash
-mvn clean package
-```
-
-## Usage
-
-Provide examples of how to use your project.  Include code snippets, screenshots, or GIFs if helpful.  Explain the different options and parameters available.
-
-**Example (Java code snippet):**
-
-```Java
-
-// Example usage of the main function
-MyClass myObject = new MyClass();
-myObject.doSomething("important argument");
-int result = myObject.calculateValue(10, 20);
-System.out.println("Result: " + result);
-```
 ## Feedback and Contributions:
 
 Feedback is welcome! Feel free to open issues or submit pull requests to suggest improvements or report any bugs.
